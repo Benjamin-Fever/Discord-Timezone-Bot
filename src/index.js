@@ -51,7 +51,7 @@ client.on('ready', (c) => {
   
   setTimeout(() => {
     setPresence();
-    setInterval(setPresence, 60000);
+    setInterval(setPresence, 60000 * 0.25);
   }, msUntilNextMinute);
 });
 
